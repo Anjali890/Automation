@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite" preserve-order="true" >
+
+    <test name="smoke">
+
+        <classes>
+            <class name="iframetest"/>
+
+            <class name="AlertTest"/>
+            <class name="VerifyDiagnostics"/>
+
+        </classes>
+
+    </test>
+</suite>
